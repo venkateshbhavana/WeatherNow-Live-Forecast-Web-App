@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ClimaTrack - Smart Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌤️ ClimaTrack</h1>
+    <p>Your personal weather assistant</p>
+
+    <input type="text" id="cityInput" placeholder="Enter City Name" />
+    <button onclick="getWeather()">Get Weather</button>
+
+    <div id="weatherResult" class="hidden">
+      <h2 id="cityName"></h2>
+      <p id="datetime"></p>
+      <img id="weatherIcon" src="fallback.png" alt="Weather Icon" />
+      <h3 id="temperature"></h3>
+      <p id="description"></p>
+      <p id="windSpeed"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

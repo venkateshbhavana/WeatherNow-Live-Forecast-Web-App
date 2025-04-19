@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color: #d8dede;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #0275d8;
+    font-size: 2rem;
+  }
+  
+  .sub-title {
+    color: #666;
+    margin-bottom: 1.2rem;
+  }
+  
+  input[type="text"] {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #0275d8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .weather-box {
+    margin-top: 1.5rem;
+  }
+  
+  #weatherIcon {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+  }
+  
+  #temperature {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #description {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  #windSpeed {
+    margin-top: 0.5rem;
+    color: #d9534f;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 1.5rem;
+      width: 95%;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    #temperature {
+      font-size: 1.5rem;
+    }
+  
+    input[type="text"] {
+      width: 100%;
+    }
+  }
+  
