@@ -4,7 +4,8 @@ WeatherNow is a sleek, responsive web application that displays real-time weathe
 
 ## 🚀 Live Demo
 
-[![Live Demo](https://weather-now-site.vercel.app/)
+[![Live Demo](https://weather-now-site.vercel.app/)]
+
 
 ## 🛠️ Technologies Used
 
