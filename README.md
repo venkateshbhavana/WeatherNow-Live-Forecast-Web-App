@@ -2,9 +2,9 @@
 
 WeatherNow is a sleek, responsive web application that displays real-time weather data for any city using the OpenWeatherMap API. It offers live updates with smooth animations and a modern UI for a seamless user experience.
 
-## 🚀 Live Demo
+## 🌐 Live Demo
 
-[![Live Demo](https://weather-now-site.vercel.app/)](https://github.com/venkateshbhavana/WeatherNow-Live-Forecast-Web-App.git)
+👉 [Click here to view the live project](https://weather-now-site.vercel.app/)
 
 
 ## 🛠️ Technologies Used
